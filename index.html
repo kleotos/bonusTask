@@ -31,18 +31,32 @@
  
                            <!-- footer -->
  <div class="jumbotron bg-light">
-  <h2>Contact Us</h2>
-  <form action="">
-   <label for="fname">First name</label><br>
-   <input type="text" id="fname" name="fname" value=""><br>
-   <label for="lname">Last name</label><br>
-   <input type="text" name="lname" id="lname" value=""><br>
-   <label for="message">Message</label><br>
-   <textarea name="message" id="message" cols="50" rows="6"></textarea><br>
-   <!-- <input type="submit" value="submit"> -->
-   <button type="button" class="btn btn-primary btn-lg">Submit</button>
-  </form>
-</div>
- 
+    <!-- <h2>Contact Us</h2><br>
+    <form action="">
+    <label for="fname">First name</label><br>
+    <input type="text" id="fname" name="fname" value=""><br>
+    <label for="lname">Last name</label><br>
+    <input type="text" name="lname" id="lname" value=""><br>
+    <label for="message">Message</label><br>
+    <textarea name="message" id="message" cols="50" rows="6"></textarea><br>
+    <button type="button" class="btn btn-primary btn-lg">Submit</button>
+    </form> -->
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+        </div>
+        <div class="col-12">
+            <label for="message" class="form-label">Message</label>
+            <input type="text" class="form-control" id="message">
+          </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
