@@ -30,9 +30,9 @@ button{
  text-decoration: underline;
  text-decoration-color: burlywood;
 }
-.jumbotron {
+.jumbotron h2{
  text-align: center;
-
+ color: black;
 }
 /* article{
  text-align: end;

@@ -42,21 +42,24 @@
     <button type="button" class="btn btn-primary btn-lg">Submit</button>
     </form> -->
     <div class="jumbotron">
-      <div class="row">
-        <div class="col">
-          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-        </div>
-        <div class="col">
-          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-        </div>
-        <div class="col-12">
-            <label for="message" class="form-label">Message</label>
-            <input type="text" class="form-control" id="message">
+      <h1>Contact Us</h1>
+      <form class="col gy-2 gx-3 align-items-center">
+          <div class="col-8">
+            <label class="visually-hidden" for="autoSizingInput">First Name</label>
+            <input type="text" class="form-control" id="autoSizingInput" placeholder="Jane Doe">
+          </div><br>
+          <div class="col-8">
+              <label class="visually-hidden" for="autoSizingInput">Last Name</label>
+              <input type="text" class="form-control" id="autoSizingInput" placeholder="Jane Doe">
+          </div><br>
+          <div class="col-8">
+              <label class="visually-hidden" for="autoSizingInput">Message</label>
+              <input type="text" class="form-control" id="autoSizingInput" placeholder="Jane Doe">
+            </div><br>
+          <div class="col-5">
+            <button type="submit" class="btn btn-primary align-items-end ">Submit</button>
           </div>
-        <div class="col-12">
-          <button type="submit" class="btn btn-primary">Sign in</button>
-        </div>
-      </div>
+        </form>
     </div>
 </body>
 </html>
