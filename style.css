@@ -127,6 +127,9 @@ textarea {
 
 @media (max-width: 750px) { 
 
+  body {
+   overflow-x: hidden; 
+  }
   .heading2 {
     margin-bottom: 0;
   }
